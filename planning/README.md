@@ -38,6 +38,14 @@ how often will we get in touch on each channel, and what we will discuss there:
 | Thursday  |   all day   | before 14:00 | after 15:00 | After 16:00 | --  |
 | Friday    | after 13:00 | all day | after 15:00 | After 16:00 | --  |
 
+## Communication Schedule
+
+| Day                          | How  |          The topic of discussion           |
+| ---------------------------- | :--: | :----------------------------------------: |
+| Sunday (April 18th) 16:20 | Zoom | Planning, setting up |
+| Monday (April 19th) 16:00 | Zoom | Brainstorming, backlog |
+| Wednesday (April 21th) 16:00 | Zoom | Development strategy |
+
 ### How many hours everyone has per day:
 
 -  Rayane: _6h_;
