@@ -8,38 +8,63 @@ A collection of user stories you can choose from. Stories inside of each priorit
 
 are necessary for basic usability:
 
--  **Website Visitor**: As a Website Visitor I want to have existing header and footer navs so that I have clear navigation around the website:
-   -  [ ] Given when the user visits the website then it must have the main navigation menu displayed in the header and the secondary navigation menu in the footer
--  **Website Visitor**: As a Website Visitor I want the correct links exist in the navs
-   -  [ ] Given when I see the header and the footer, then links to Home, Features and Docs of the website are provided
--  **Website Visitor**: As a Website Visitor I want to know whether I can use the solution on my computer
-   -  [ ] Given when I visit the website then I can see the list of languages supported, and the technical requirements
--  **Website Visitor**: As a Website Visitor I want to know how to install Loruki on my computer so that I could use it
-   -  [ ] Given when the user visits the home page then he can see brief information ont how to instal Loruki
-   -  [ ] Given when the user visits the Docs page then he can see all the necessary instructions.
--  **Website Visitor**: As a User I want to request a demo so that I receive a demo version to my mailbox
-   -  [ ] Given when I fill in the form with my contacts then the demo is dent to my e-mail
--  **Admin**: As an Admin I want to send the demo version to the users who requested it so that
-   -  [ ] Given when a website visitor fills in the form, the demo version is automatically sent to their email
--  **Admin**: As an Admin I want to see the collected data of the users who requested the demo version and include them into Loruki mailing list
-   -  [ ] Given when a website visitor fills in the form, I get their email saved into the database
+-  **General User**: As a General User I want to ... so that ...:
+   -  [ ] Given when ... then ...
+-  **General User**: As a General User I want I want to ... so that ...:
+   -  [ ] Given when ... then ...
+-  **General User**: As a General User I want I want to ... so that ...:
+   -  [ ] Given when ... then ...
+
+
+-  **Student**: As a Student I want to approach the 'apply' option from any webpage so that I could immediately apply for the program:
+   -  [ ] Given when I visit any webpage then APPLY button is a part of the header
+   -  [ ] Given when I click on the APPLY button I am redirected to the google form
+-  **Student**: As a Student I want to easily learn about the conditions to join the HYF program so that I can estimate my chances:
+   -  [ ] Given when I visit the Main Page then I can see the list of conditions to apply to HYF
+-  **Student**: As a Student I want to know when the next application process takes place and when the next classes start so that I could apply on time:
+   -  [ ] Given when I visit the Main Page then I can see the information on next application and program dates
+-  **Student**: As a Student I want to know the list of languages learned in HYF:
+   -  [ ] Given when I visit the Main Page then I can see the list of languages and the icons
+
+
+-  **Volunteer**: As a Volunteer I want to ... so that ...:
+   -  [ ] Given when ... then ...
+-  **Volunteer**: As a Volunteer I want to ... so that ...:
+   -  [ ] Given when ... then ...
+
+
+- **Sponsor**: As a Sponsor I want to ... so that ...:
+   -  [ ] Given when ... then ...
+- **Sponsor**: As a Sponsor I want to ... so that ...:
+   -  [ ] Given when ... then ...
 
 ## Should-Haves
 
 will complete the user experience, but are not necessary:
 
--  **Mobile User**: As a Mobile User I want to easily use the Loruki website from my mobile phone
-   -  [ ] Given when I visit the site from my mobile phone, the web design is responsive
--  **Website Visitor**: As a Website Visitor I want to learn the main statistics of the Loruki solution use so that I know more about its popularity
-   -  [ ] Given when I visit the website I see the information about the number of deployment, projects etc.
--  **Website Visitor**: As a Website Visitor I want to see Loruki accounts in social media so that I get more information about Loruki
-   -  [ ] Given the website visitor wants to staying in touch with the company, then it should have a contact section in the footer with clickable logos of social media that bring him to Loruki's accounts.
+-  **General User**: As a General User I want to ... so that ...:
+   -  [ ] Given when ... then ...
+
+
+-  **Student**: As a Student I want to see answers to the most frequently asked questions on the website so that I don't need to write an email:
+   -  [ ] Given when there's a FAQ page on the website then I can see Q&As regarding the application process and conditions to apply;  
+-  **Student**: As a Student I want to know the exact curriculum so that I ...:
+   -  [ ] Given when ... then ...
+
+
+-  **Volunteer**: As a Volunteer I want to ... so that ...:
+   -  [ ] Given when ... then ...
+   -  [ ] Given when ... then ...
+
+
+-  **Sponsor**:  As a Sponsor I want to ... so that ...:
+   -  [ ] Given when ... then ...
 
 ## Could-Haves
 
 would be really cool ... if there's time:
 
--  **Website User**: As a Website User I would like to see an interactive website with effects so that I enjoy the experience
-   -  [ ] Given the visitor wants a user-friendly design, then the website could have some hover effects for links or menu items
+-  **General User**: As a Website User I would like to ...
+   -  [ ] Given the ... then ...
 
----
+-
