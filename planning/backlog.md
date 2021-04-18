@@ -33,10 +33,10 @@ are necessary for basic usability:
    -  [ ] Given when ... then ...
 
 
-- **Sponsor**: As a Sponsor I want to ... so that ...:
-   -  [ ] Given when ... then ...
-- **Sponsor**: As a Sponsor I want to ... so that ...:
-   -  [ ] Given when ... then ...
+- **Sponsor**: As a Sponsor I want to support the organization so that help:
+   -  [ ] to Give an opportunity when they need it.
+- **Sponsor**: As a Sponsor I want to help the student developing so that can:
+   -  [ ] Give them access to qualitative material to learn when they don't has the ressources to by a computer.
 
 ## Should-Haves
 
@@ -57,8 +57,8 @@ will complete the user experience, but are not necessary:
    -  [ ] Given when ... then ...
 
 
--  **Sponsor**:  As a Sponsor I want to ... so that ...:
-   -  [ ] Given when ... then ...
+-  **Sponsor**:  As a Sponsor I want to give opportunities jobs to the student so that:
+   -  [ ] Give chance to their professional carrer.
 
 ## Could-Haves
 
