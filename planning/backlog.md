@@ -32,12 +32,15 @@ are necessary for basic usability:
 -  **Volunteer**: As a Volunteer I want to ... so that ...:
    -  [ ] Given when ... then ...
 
-
-- **Sponsor**: As a Sponsor I want to support the organization so that help:
-   -  [ ] to Give an opportunity when they need it.
-- **Sponsor**: As a Sponsor I want to help the student developing so that can:
-   -  [ ] Give them access to qualitative material to learn when they don't has the ressources to by a computer.
-
+- **Sponsor**: As a Sponsor I want to easily access the relevant information:
+   -  [ ] Given when I visit the website the link to Sponsor page is provided in the header
+- **Sponsor**: As a Sponsor I want to know main formats of contributing to HYF:
+   -  [ ] Given when I visit Sponsor page then I can see information about the main formats of supporting HYF
+- **Sponsor**: As a Sponsor I want to know the values of HYF so that I decide whether to support it or not:
+   -  [ ] Given when I access the Sponsor page then I can see clear information on the values of HYF
+- **Sponsor**: As a Sponsor I want to know how to donate to HYF:
+   -  [ ] Given when I visit Sponsor page then I can fill a form to donate
+   -  [ ] Given when I want to contribute in a different way I can instantly contact HYF via mail 
 ## Should-Haves
 
 will complete the user experience, but are not necessary:
@@ -53,14 +56,15 @@ will complete the user experience, but are not necessary:
    - **Student**: As a Student I want to learn about impressions of HYF alumni so that I understand whether this program gives perspectives to me:
    -  [ ] Given when I visit the website then I can see stories of HYF alumni with their names, photos and feedback
 
+- **Sponsor**: As a Sponsor I want to see the success stories so that can see the impact the program makes:
+   -  [ ] Given when I visit the homepage the testimonies of students are provided
+
+- **Sponsor**: As a Sponsor I want to see who's already supporting the program:
+   -  [ ] Given when I visit the homepage the list of main partners is provided
 
 -  **Volunteer**: As a Volunteer I want to ... so that ...:
    -  [ ] Given when ... then ...
    -  [ ] Given when ... then ...
-
-
--  **Sponsor**:  As a Sponsor I want to give opportunities jobs to the student so that:
-   -  [ ] Give chance to their professional carrer.
 
 ## Could-Haves
 
@@ -69,4 +73,5 @@ would be really cool ... if there's time:
 -  **General User**: As a Website User I would like to ...
    -  [ ] Given the ... then ...
 
--
+-  **Sponsor**:  As a Sponsor I want to know how to give the HYF students job opportunities:
+   -  [ ] Given that I visit Sponsor p chance then ... their professional career.
