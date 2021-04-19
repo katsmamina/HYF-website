@@ -18,13 +18,13 @@ are necessary for basic usability:
 
 -  **Student**: As a Student I want to approach the 'apply' option from any webpage so that I could immediately apply for the program:
    -  [ ] Given when I visit any webpage then APPLY button is a part of the header
-   -  [ ] Given when I click on the APPLY button I am redirected to the google form
+   -  [ ] Given when I click on the APPLY button I am redirected to the google application form
 -  **Student**: As a Student I want to easily learn about the conditions to join the HYF program so that I can estimate my chances:
-   -  [ ] Given when I visit the Main Page then I can see the list of conditions to apply to HYF
+   -  [ ] Given when I visit the Homepage then I can see the list of conditions to apply to HYF
 -  **Student**: As a Student I want to know when the next application process takes place and when the next classes start so that I could apply on time:
-   -  [ ] Given when I visit the Main Page then I can see the information on next application and program dates
+   -  [ ] Given when I visit the Homepage then I can see the information on next application and program dates
 -  **Student**: As a Student I want to know the list of languages learned in HYF:
-   -  [ ] Given when I visit the Main Page then I can see the list of languages and the icons
+   -  [ ] Given when I visit the Homepage and the Program page then I can see the list of languages and the icons
 
 
 -  **Volunteer**: As a Volunteer I want to ... so that ...:
@@ -48,8 +48,10 @@ will complete the user experience, but are not necessary:
 
 -  **Student**: As a Student I want to see answers to the most frequently asked questions on the website so that I don't need to write an email:
    -  [ ] Given when there's a FAQ page on the website then I can see Q&As regarding the application process and conditions to apply;  
--  **Student**: As a Student I want to know the exact curriculum so that I ...:
-   -  [ ] Given when ... then ...
+-  **Student**: As a Student I want to know detailed information  about the program so that I:
+   -  [ ] Given when I visit Homepage then I can be easily redirected to the Program page which includes detailed information, such as curriculum, languages learnt etc.
+   - **Student**: As a Student I want to learn about impressions of HYF alumni so that I understand whether this program gives perspectives to me:
+   -  [ ] Given when I visit the website then I can see stories of HYF alumni with their names, photos and feedback
 
 
 -  **Volunteer**: As a Volunteer I want to ... so that ...:
