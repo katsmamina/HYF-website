@@ -1,50 +1,43 @@
 # Planning
 
+## WEEK 2
+
 ## Video calls
 
 | Day                    | How  |           The topic of discussion            |
 | ---------------------- | :--: | :------------------------------------------: |
 | **Sunday** after class | Zoom | Setting up week's plan and sharing the tasks |
+| **Monday** at 16:00    | Zoom |             Group work progress              |
 | **Wednesday** at 16:00 | Zoom |             Group work progress              |
-| **Friday** at 17:00    | Zoom |                Retrospective                 |
 
 ## Communication Schedule
 
-| Day                          | How  |          The topic of discussion           |
-| ---------------------------- | :--: | :----------------------------------------: |
-| Wednesday (April 14th) 16:00 | Zoom | Brainstorming, backlog, project definition |
-| Saturday (April 17th) 11:00  | Zoom |            Retrospective week 1            |
+| Day                          | How  |                 The topic of discussion                  |
+| ---------------------------- | :--: | :------------------------------------------------------: |
+| Sunday (April 18th) 16:30    | Zoom |  Setting up our group repository and planning our tasks  |
+| Monday (April 19th) 16:00    | Zoom | Brainstorming, backlog, project definition and wireframe |
+| Wednesday (April 21th) 16:00 | Zoom |                   Development strategy                   |
 
 ## Communication Channels
 
 how often will we get in touch on each channel, and what we will discuss there:
 
 -  **Slack Messaging**: General communication
--  **Zoom Video Calls**: 3 times per week
--  **Issues**: For group and individual assignments and provide more detail about how to complete the work
+-  **Zoom Video Calls**: 4 times per week
+-  **Issues**: For group and individual assignments and for provide more detail about how to complete the work
 -  **Pull Requests**: For work review
 
 ## Availability
 
-### Week 2
-
 ### Availability for calling/messaging
 
-| Day       |   Rayane    |   Ekaterina   |    Widad    | Jose Tomas  | Ali |
-| --------- | :---------: | :-----------: | :---------: | :---------: | :-: |
-| Monday    | after 13:00 | before 13:00, after 16.00 | after 15:00 | After 16:00 | --  |
+| Day       |   Rayane    |         Ekaterina         |    Widad    | Jose Tomas  | Ali |
+| --------- | :---------: | :-----------------------: | :---------: | :---------: | :-: |
+| Monday    | after 11:00 | before 13:00, after 16.00 | after 15:00 | After 16:00 | --  |
 | Tuesday   |   all day   | before 13:00, after 16.00 | after 15:00 |    busy     | --  |
-| Wednesday | after 13:00 | after 13:00 | after 15:00 | After 16:00 | --  |
-| Thursday  |   all day   | before 14:00 | after 15:00 | After 16:00 | --  |
-| Friday    | after 13:00 | all day | after 15:00 | After 16:00 | --  |
-
-## Communication Schedule
-
-| Day                          | How  |          The topic of discussion           |
-| ---------------------------- | :--: | :----------------------------------------: |
-| Sunday (April 18th) 16:20 | Zoom | Planning, setting up |
-| Monday (April 19th) 16:00 | Zoom | Brainstorming, backlog |
-| Wednesday (April 21th) 16:00 | Zoom | Development strategy |
+| Wednesday | after 13:00 |        after 13:00        | after 15:00 | After 16:00 | --  |
+| Thursday  |   all day   |       before 14:00        | after 15:00 | After 16:00 | --  |
+| Friday    | after 13:00 |          all day          | after 15:00 | After 16:00 | --  |
 
 ### How many hours everyone has per day:
 
