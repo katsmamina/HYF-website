@@ -8,12 +8,18 @@ A collection of user stories you can choose from. Stories inside of each priorit
 
 ### General User
 
--  As a General User I want to ... so that ...:
-   -  [ ] Given when ... then ...
--  As a General User I want I want to ... so that ...:
-   -  [ ] Given when ... then ...
--  As a General User I want I want to ... so that ...:
-   -  [ ] Given when ... then ...
+backlog.md-JTL
+-  **General User**: As a General User I want to identify quickly which organization owns the Homepage so that I could find more information over the background:
+   -  [ ] Given when I visit the Homepage then I can see the logo and the name.
+-  **General User**: As a General User I want to have a clear vision of the Homepage sections and links so that I would have a precise sens of orientation and I could find the information quickly:
+   -  [ ] Given when I visit then Homepage and I can see a clear navbar.
+-  **General User**: As a General User I want I want to know how to make contact with the HYF's team so that I can address my questions:
+   -  [ ] Given when the contact informatioin is displayed then I can see a page of Contact/About Us and/or the contact information in the footer or navbar.
+   **General User**: As a General User I want I want to see everything clear so that I have a good experience:
+   -  [ ] Given when I visit the Homepage then I can see colors, fonts, media y scheme that make an armonic website.
+   **General User**: As a General User I want I want to have better comprehension about the lessons and the program so that I can understand better how does HYF works.
+   -  [ ] Given when I visit the Homepage then I can see fotos and videos.
+
 
 ### Student
 
@@ -70,11 +76,6 @@ A collection of user stories you can choose from. Stories inside of each priorit
 
 ## Should-Haves
 
-### General user
-
--  As a **General User** I want to ... so that ...:
-
-   -  [ ] Given when ... then ...
 
 ### Student
 
@@ -115,8 +116,10 @@ A collection of user stories you can choose from. Stories inside of each priorit
 
 ### General User
 
--  As a **General User** I would like to ...
-   -  [ ] Given the ... then ...
+backlog.md-JTL
+-  **General User**: As a Website User I would like to have a dinamic experience so that I could enjoy my staying in the site.
+   -  [ ] Given when the website is dinamic and includes effects then the UX is better. 
+
 
 ### Volunteer
 
