@@ -44,7 +44,7 @@
 
 ## `Should-have`(_milestone_)
 
-## `Banner` (_milestone_)
+## `Banner` (_label_)
 
 ### `type: html` (_label_)
 
