@@ -42,6 +42,12 @@
    -  [ ] uppercase letter
    -  [ ] placed on the right side
 
+## `Footer` (_label_)
+
+### `type: html` (_label_)
+
+### `type: css` (_label_)
+
 ## `Should-have`(_milestone_)
 
 ## `Banner` (_label_)
