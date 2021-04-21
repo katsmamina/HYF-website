@@ -2,7 +2,9 @@
 
 # Homepage
 
-## `Header` (_milestone_)
+## `Must-have`(_milestone_)
+
+## `Header` (_label_)
 
 ### `type: html` (_label_)
 
@@ -40,6 +42,8 @@
    -  [ ] uppercase letter
    -  [ ] placed on the right side
 
+## `Should-have`(_milestone_)
+
 ## `Banner` (_milestone_)
 
 ### `type: html` (_label_)
@@ -59,9 +63,29 @@
    -  [ ] work sans font
    -  [ ] uppercase letter
 
+## `Could-have`(_milestone_)
+
 # The program page
 
-## (_milestone_)
+## `Must-have`(_milestone_)
+
+## (_label_)
+
+### `type: html` (_label_)
+
+### `type: css` (_label_)
+
+## `Should-have`(_milestone_)
+
+## (_label_)
+
+### `type: html` (_label_)
+
+### `type: css` (_label_)
+
+## `Could-have`(_milestone_)
+
+## (_label_)
 
 ### `type: html` (_label_)
 
