@@ -1,8 +1,10 @@
 # Development-strategy
 
-# Homepage
+### `Must-have`(_milestone_)
 
-## `Header` (_milestone_)
+## Homepage
+
+## `for: header` (_label_)
 
 ### `type: html` (_label_)
 
@@ -40,29 +42,128 @@
    -  [ ] uppercase letter
    -  [ ] placed on the right side
 
-## `Banner` (_milestone_)
+## `for: footer` (_label_)
 
 ### `type: html` (_label_)
 
--  Text banner (_issue_)
-   -  [ ] h1 with some text
+-  Title (_issue_)
+   -  [ ] h3 with some text
+-  Adress (_issue_)
+   -  [ ] p with the adress
+-  Email
+
+   -  [ ] element a with mailto link
+
+-  Social media
+   -  [ ] icons work as a link to the social media
 
 ### `type: css` (_label_)
 
--  Background-image (_issue_)
+-  Footer (_issue_)
 
-   -  [ ] use an image of the students as the background of the section
+   -  [ ] white background-color
 
--  Text banner (_issue_)
-   -  [ ] centralized text
-   -  [ ] text color white
+-  Title (_issue_)
+
    -  [ ] work sans font
+   -  [ ] dark purple text
    -  [ ] uppercase letter
+   -  [ ] centralized text
+
+-  Adress (_issue_)
+
+   -  [ ] dark grey text
+   -  [ ] centralized text
+   -  [ ] space mono font
+
+-  Email (_issue_)
+
+   -  [ ] centralized text
+   -  [ ] space mono font
+
+-  Social media (_issue_)
+   -  [ ] color purple
+   -  [ ] centralized icons
 
 # The program page
 
-## (_milestone_)
+## `for: application` (_label_)
 
 ### `type: html` (_label_)
 
+-  Title
+
+   -  [ ] h3 with title
+
+-  Paragraph
+
+   -  [ ] 3 paragraphs with some bold text
+
+-  Button "Apply now" (_issue_)
+   -  [ ] link to the google form
+
 ### `type: css` (_label_)
+
+-  Title
+
+   -  [ ] place on the left side
+   -  [ ] purple text
+   -  [ ] work sans font
+
+-  Paragraph
+
+   -  [ ] place on the left side
+   -  [ ] dark grey text
+   -  [ ] space mono font
+
+-  Button "Apply Now" (_issue_)
+   -  [ ] purple background-color with white text
+   -  [ ] uppercase letter
+   -  [ ] placed on the left side
+   -  [ ] work sans font
+
+## `for: full program` (_label_)
+
+### `type: html` (_label_)
+
+-  Title
+
+   -  [ ] h2 with some text
+
+-  Button "Full curriculum" (_issue_)
+
+   -  [ ] link to curriculum
+
+-  Button "Become a coach" (_issue_)
+
+   -  link to google form
+
+-  Icons
+   -  [ ] 6 programming languages icon
+   -  [ ] 6 p element with the names of the programming languages
+
+### `type: css` (_label_)
+
+-  Title
+
+   -  [ ] place on the left side
+   -  [ ] purple text
+   -  [ ] work sans font
+
+-  Button "Full Curriculum" (_issue_)
+
+   -  [ ] purple background-color with white text
+   -  [ ] uppercase letter
+   -  [ ] placed on the left side
+   -  [ ] work sans font
+
+-  Button "Become a coach" (_issue_)
+
+   -  [ ] purple background-color with white text
+   -  [ ] uppercase letter
+   -  [ ] placed on the left side
+   -  [ ] work sans font
+
+-  Icons
+   -  [ ] purple text
+   -  [ ] placed on the right side
