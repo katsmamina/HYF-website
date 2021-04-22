@@ -2,6 +2,7 @@
 
 ### `Must-have`(_milestone_)
 
+
 ## Homepage
 
 ## `for: header` (_label_)
@@ -41,6 +42,57 @@
    -  [ ] purple background-color with white text
    -  [ ] uppercase letter
    -  [ ] placed on the right side
+
+
+## `for: body` (_label_)
+
+### Our Program section
+### `type: html` (_label_)
+   -  [ ] Title (_issue_)
+      
+   -  [ ] Parragraph.(_issue_)
+     .
+   -  [ ] Image (_issue_)
+     
+   
+
+### `type: css` (_label_)
+   -  [ ] BgColor. (_issue_)
+   -  [ ] Title  (_issue_)
+     - [ ]  <h3> Work Sans font, displayed in the left side centered and with uppercase letters.
+   -  [ ] <P> (_issue_)
+     - [ ]Mono space Font, displayed in the left side and Color(Blue and black)
+   -  [ ] <IMG> (_issue_)
+     - [ ]  with box-shadow.
+     - [ ]  displayed in the right side 
+
+
+### Support our work - section
+### `type: html` (_label_)
+   -  [ ] Title (_issue_)
+      -  [ ] <h3> Work sans font,.
+   -  [ ] Parragraph.(_issue_)
+      -  [ ] Mono space font.
+   -  [ ] Form (_issue_)
+      -  <form> Work sans font.
+   
+
+### `type: css` (_label_)
+   -  [ ] BgColor.(_issue_)
+   -  [ ] Title(_issue_)
+      -[ ] <h3> displayed in the left side and centered.
+   -  [ ] <p> (_issue_)
+      -[ ]Font Color(Blue and black) and displayed in the left side.
+   -  [ ] <form> .(_issue_)
+      -  [ ] Displayed in the right side.
+      -  [ ] 2 <botton> with text (1)One Time and (2) Monthly.
+      -  [ ] <p> with text Select your amount.
+         -  [ ] 5 <botton>; €10, €25, €50, €100 and Full Scholarship
+         -  [ ] <p> with text amount.
+         -  [ ] <input> 
+         -  [ ] <p> with text message.
+         -  [ ] <input>
+      -  [ ] <botton> with text Donate in uppercase letter and bold.
 
 ## `for: footer` (_label_)
 
@@ -121,6 +173,39 @@
    -  [ ] uppercase letter
    -  [ ] placed on the left side
    -  [ ] work sans font
+
+## `for: Who can apply?` (_label_)
+
+### `type: html` (_label_)
+
+-  [ ] Title (_issue_)
+
+   -  [ ] <h3> title.
+
+-  [ ] Paragraph (_issue_)
+
+   -  [ ] 1 <p>.
+
+-  [ ] List  (_issue_)
+   -  [ ] 8 <img>+<li>
+
+### `type: css` (_label_)
+
+-  Title (_issue_)
+
+   -  [ ] Displayed and aligned onto the left side.
+   -  [ ] Text color.
+   -  [ ] Work sans font
+
+-  Paragraph (_issue_)
+
+   -  [ ] Dislayed on the left side
+   -  [ ] Text color.
+   -  [ ] Space mono font
+
+- List (_issue_)
+   -  [ ] Displayed in the right side and aligned to the left.
+   -  [ ] some bold words in each <li>
 
 ## `for: full program` (_label_)
 
