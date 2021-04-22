@@ -4,6 +4,16 @@
 
 [Space Mono](https://fonts.google.com/specimen/Space+Mono?query=space)
 
+## CSS rules to specify families
+
+-  Work Sans
+
+font-family: 'Work Sans', sans-serif;
+
+-  Space Mono
+
+font-family: 'Space Mono', monospace;
+
 ## Homepage
 
 ### Navbar and Header
