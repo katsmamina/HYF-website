@@ -1,10 +1,8 @@
 # Development-strategy
 
-### `Must-have`(_milestone_)
+# Homepage
 
-## Homepage
-
-## `for: header` (_label_)
+## `Header` (_milestone_)
 
 ### `type: html` (_label_)
 
@@ -42,128 +40,75 @@
    -  [ ] uppercase letter
    -  [ ] placed on the right side
 
-## `for: footer` (_label_)
+## `Banner` (_milestone_)
 
 ### `type: html` (_label_)
 
--  Title (_issue_)
-   -  [ ] h3 with some text
--  Adress (_issue_)
-   -  [ ] p with the adress
--  Email
-
-   -  [ ] element a with mailto link
-
--  Social media
-   -  [ ] icons work as a link to the social media
+-  Text banner (_issue_)
+   -  [ ] h1 with some text
 
 ### `type: css` (_label_)
 
--  Footer (_issue_)
+-  Background-image (_issue_)
 
-   -  [ ] white background-color
+   -  [ ] use an image of the students as the background of the section
 
--  Title (_issue_)
-
+-  Text banner (_issue_)
+   -  [ ] centralized text
+   -  [ ] text color white
    -  [ ] work sans font
-   -  [ ] dark purple text
    -  [ ] uppercase letter
-   -  [ ] centralized text
 
--  Adress (_issue_)
+## `Values` (_milestone_)
 
-   -  [ ] dark grey text
-   -  [ ] centralized text
-   -  [ ] space mono font
+### `type: html` (_label_)
 
--  Email (_issue_)
+-  Values-text (_issue_)
+   - [ ] h2 – text Our core values
+   - [ ] h3 with paragraphs (x4)
 
-   -  [ ] centralized text
-   -  [ ] space mono font
+- [ ] Values-icons (_issue_)
+   - [ ] icons above each paragraph
 
--  Social media (_issue_)
-   -  [ ] color purple
-   -  [ ] centralized icons
+### `type: css` (_label_)
 
+-  Values (_issue_)
+   -  [ ] background color grey
+   -  [ ] work sans font
+
+- Values-text (_issue_)
+   -  [ ] p text color black
+   -  [ ] h2 text uppercase
+   -  [ ] h2, h3 color purple
+
+-  Values-icons (_issue_)
+   -  [ ] icon above each paragraph
+   -  [ ] size approx. 70px*70px
+
+## `Our partners` (_milestone_)
+### `type: html` (_label_)
+
+-  Partners-text (_issue_)
+   - [ ] h2 – Our partners
+   - [ ] link Become a partner (redirects to creating an email to contact@hackyourfuture.be)
+
+- [ ] Partners-logos (_issue_)
+   - [ ] 12 logos
+  
+### `type: css` (_label_)
+
+-  Partners-text (_issue_)
+   - [ ] h2 – uppercase
+   - [ ] h2 font color purple
+   - [ ] link color purple
+   - [ ] hover effect – background grey
+
+- [ ] Partners-logos (_issue_)
+   - [ ] 2 rows of images
 # The program page
 
-## `for: application` (_label_)
+## (_milestone_)
 
 ### `type: html` (_label_)
 
--  Title
-
-   -  [ ] h3 with title
-
--  Paragraph
-
-   -  [ ] 3 paragraphs with some bold text
-
--  Button "Apply now" (_issue_)
-   -  [ ] link to the google form
-
 ### `type: css` (_label_)
-
--  Title
-
-   -  [ ] place on the left side
-   -  [ ] purple text
-   -  [ ] work sans font
-
--  Paragraph
-
-   -  [ ] place on the left side
-   -  [ ] dark grey text
-   -  [ ] space mono font
-
--  Button "Apply Now" (_issue_)
-   -  [ ] purple background-color with white text
-   -  [ ] uppercase letter
-   -  [ ] placed on the left side
-   -  [ ] work sans font
-
-## `for: full program` (_label_)
-
-### `type: html` (_label_)
-
--  Title
-
-   -  [ ] h2 with some text
-
--  Button "Full curriculum" (_issue_)
-
-   -  [ ] link to curriculum
-
--  Button "Become a coach" (_issue_)
-
-   -  link to google form
-
--  Icons
-   -  [ ] 6 programming languages icon
-   -  [ ] 6 p element with the names of the programming languages
-
-### `type: css` (_label_)
-
--  Title
-
-   -  [ ] place on the left side
-   -  [ ] purple text
-   -  [ ] work sans font
-
--  Button "Full Curriculum" (_issue_)
-
-   -  [ ] purple background-color with white text
-   -  [ ] uppercase letter
-   -  [ ] placed on the left side
-   -  [ ] work sans font
-
--  Button "Become a coach" (_issue_)
-
-   -  [ ] purple background-color with white text
-   -  [ ] uppercase letter
-   -  [ ] placed on the left side
-   -  [ ] work sans font
-
--  Icons
-   -  [ ] purple text
-   -  [ ] placed on the right side
