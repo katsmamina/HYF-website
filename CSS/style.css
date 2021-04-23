@@ -46,6 +46,20 @@ header {
    align-items: center;
 }
 
+img {
+   width: 98px;
+   height: 53px;
+   display: inline;
+}
+
+.links {
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
 .links li {
    display: inline;
    margin: 0 20px;
@@ -58,12 +72,4 @@ nav {
 
 .nav-menu {
    text-transform: uppercase;
-}
-
-.links {
-   list-style: none;
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   display: flex;
 }
