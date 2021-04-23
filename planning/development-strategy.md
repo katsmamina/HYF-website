@@ -42,6 +42,65 @@
    -  [ ] uppercase letter
    -  [ ] placed on the right side
 
+## `for: Values` (_label_)
+### `type: html` (_label_)
+
+- Header-values (_issue_) 
+
+- Paragraphs-values (_issue_) 
+   - [ ] h3 x 4 
+   - [ ] Paragraph x 4 below each h3 
+
+- Icons-values (_issue_) 
+  - [ ] Icons x 4 for each h3+paragraph
+
+### `type: css` (_label_)
+
+- General design-values (_issue_)
+  - [ ] background color grey
+  
+- Header-values (_issue_) 
+   - [ ] uppercase
+   - [ ] font color purple
+
+- Paragraphs-values (_issue_) 
+   - [ ] h3 font color purple
+   - [ ] text font color black
+   - [ ] position as table 2x2 
+
+- Icons-values (_issue_) 
+  - [ ] above each h3
+  - [ ] height, width approx. 70px
+
+## `for: Partners` (_label_)
+### `type: html` (_label_)
+
+- Header-partners (_issue_) 
+
+- Link-partners (_issue_) 
+   - [ ] Link to send email to contact@hackyourfuture.be 
+
+- Icons-partners (_issue_) 
+  - [ ] 12 icons for each partner
+
+### `type: css` (_label_)
+
+- General design (_issue_)
+  - [ ] background color grey
+  
+- Header-partners (_issue_) 
+   - [ ] uppercase
+   - [ ] font color purple
+
+- Link-partners (_issue_) 
+   - [ ] font color purple
+   - [ ] uppercase
+   - [ ] position left against the header
+   - [ ] hover effect: grey button
+
+- Icons-partners (_issue_) 
+  - [ ] grid 6x2
+
 ## `for: footer` (_label_)
 
 ### `type: html` (_label_)
@@ -70,7 +129,7 @@
    -  [ ] uppercase letter
    -  [ ] centralized text
 
--  Adress (_issue_)
+-  Address (_issue_)
 
    -  [ ] dark grey text
    -  [ ] centralized text
