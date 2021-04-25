@@ -42,6 +42,36 @@
    -  [ ] uppercase letter
    -  [ ] placed on the right side
 
+## 'for:our-program-section' (_label_)
+### `type: html` (_label_)
+   -  [ ] Title (_issue_)
+        - [ ] h3
+   -  [ ] Paragraph.(_issue_)
+        - [ ] p
+   -  [ ] Image (_issue_)
+        - [ ] img
+   -  [ ] Bu  mtton
+        -  [ ] text "Discover more".
+
+### `type: css` (_label_)
+   -  [ ] BgColor White. (_issue_)
+   -  [ ] Title  (_issue_)
+        - [ ] h3.
+        - [ ] Work Sans font.
+        - [ ] Displayed in the left side and centered.
+        - [ ] Uppercase letters.
+   -  [ ] Paragraph (_issue_)
+        - [ ] Mono space Font.
+        - [ ] Displayed in the left side.
+        - [ ] Color(Purple and Dark grey).
+   -  [ ] IMG (_issue_)
+        -  [ ] Displayed in the right side.
+        -  [ ] With box-shadow.
+   -  [ ] Button. (_issue_)
+       -  [ ] Hover; Light gray color.
+       -  [ ] Rounded corners.
+
+
 ## `for: Values` (_label_)
 ### `type: html` (_label_)
 
@@ -180,6 +210,41 @@
    -  [ ] uppercase letter
    -  [ ] placed on the left side
    -  [ ] work sans font
+
+## 'for: support-our-work-section'
+### `type: html` (_label_)
+   -  [ ] Title (_issue_)
+      -  [ ] h3.
+   -  [ ] Parragraph. (_issue_)
+      -  [ ] p.
+   -  [ ] Form (_issue_)
+         - [ ] 2 radio buttons with text (1)One Time and (2) Monthly.
+         - [ ] p left aligned
+         -   [ ] 5 rectangular buttons; €10, €25, €50, €100 and Full Scholarship
+         -  [ ] paragraph with text "Amount".
+         -  [ ] input .
+         -  [ ] paragraph with text "Message".
+         -  [ ] input.
+         -  [ ] botton with text Donate.
+
+
+### `type: css` (_label_)
+   -  [ ] BgColor Light grey.(_issue_)
+   -  [ ] Title(_issue_)
+      -  [ ] Work sans font
+      -  [ ] h3 displayed in the left side and centered.
+   -  [ ] Paragraph (_issue_)
+      -  [ ] Mono space font, color(Purple and Dark grey) and displayed in the left side.
+   -  [ ] form.(_issue_)
+      -  [ ] Displayed in the right side.
+      -  [ ] 2 buttons with text (1)One Time and (2) Monthly.
+      -  [ ] paragraph with text Select your amount.
+      -  [ ] 5 buttons with hover(Purple) and selectedColor(Purple)
+      -  [ ] paragraph with left aligned text.
+      -  [ ] input with bottom border.
+      -  [ ] paragraph with left aligned text.
+      -  [ ] input with bottom border.
+      -  [ ] button with text Donate in uppercase letter and bold.
 
 ## `for: full program` (_label_)
 
