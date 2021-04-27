@@ -1,5 +1,21 @@
+/* Reset browser defaults */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* To keep the footer at bottom with flexbox */
+
 body {
    background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+main {
+   flex-grow: 1;
 }
 
 /* Here starts the header */
@@ -148,4 +164,99 @@ nav {
 h2 {
    font-family: "Work Sans", sans-serif;
    color: #1c2294;
+}
+
+/* Here starts the footer */
+
+footer {
+   display: flex;
+   position: relative;
+   box-sizing: border-box;
+   width: 1685px;
+   min-width: auto;
+   height: 320px;
+   padding: 40px 16px;
+   box-shadow: 0 0 50px 0 #ededee;
+}
+
+.ft-address {
+   display: block;
+   text-align: center;
+   font-size: 16px;
+   width: 268px;
+   height: 150px;
+   line-height: 24px;
+   word-wrap: break-word;
+   word-spacing: 0;
+}
+
+.ft-contact {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 220px;
+   width: 1280px;
+   max-width: 1280px;
+   min-width: auto;
+   padding: 8px 0px 8px 0px;
+   margin-left: 11%;
+   font-family: "Space Mono", monospace;
+   font-weight: 300;
+   font-size: 16px;
+   color: #2d3037;
+}
+.ft-email {
+   word-spacing: 0;
+   font-size: 16px;
+   padding-bottom: 5px;
+}
+
+a.ft-email:link {
+   color: #2d3037;
+}
+.ft-title {
+   display: block;
+   font-family: "Work Sans", sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   margin-bottom: 20px;
+   color: #1c2294;
+   text-transform: uppercase;
+   width: 720px;
+   height: 32px;
+}
+
+.icon-link1 {
+   display: inline-flex;
+   width: 27px;
+   height: 27px;
+   margin-right: 2%;
+   margin-left: 2.5%;
+}
+
+.icon-link2,
+.icon-link3,
+.icon-link4 {
+   display: inline-flex;
+   width: 27px;
+   height: 27px;
+   margin-right: 2.5%;
+   margin-left: 2.5%;
+}
+
+.social-media {
+   display: inline-block;
+   width: 200px;
+   height: 33px;
+   margin-top: 16px;
+   margin-left: 25px;
+}
+
+.social-media {
+   opacity: 0.9;
+}
+
+.social-media:hover {
+   opacity: 1;
 }
