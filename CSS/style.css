@@ -73,6 +73,10 @@ header {
    transform: scale(1.03);
 }
 
+.logo-header:hover {
+   transform: scale(1.03);
+}
+
 .links-nav {
    list-style: none;
    list-style-type: none;
