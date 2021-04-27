@@ -1,25 +1,41 @@
 body {
    background-color: #ffffff;
 }
-/* HEADER */
+
+/* Here ends the header */
 
 a {
-   text-decoration: none solid #ffffff;
+   text-decoration: none;
 }
-.apply-button {
+
+.apply-button-nav {
    font-size: 12px;
    font-weight: 600;
    text-decoration: none solid white;
    color: #ffffff;
    background-color: #4a50bb;
    border-radius: 4px;
-   padding: 12px 20px 12px 20px;
+   padding: 13px 20px 13px 20px;
+   margin-bottom: 2%;
+   transition: transform 0.2s;
+}
+
+.apply-button-nav:hover {
+   box-shadow: 1px 1px 5px #dcd6e2;
+   color: #ffffff;
+   background-color: #3136a5;
+   transform: scale(1.02);
+}
+
+.btn-apply-nav {
+   display: flex;
 }
 
 header {
    box-sizing: border-box;
+   display: flex;
    height: 90px;
-   width: 1670px;
+   width: 1665px;
    min-width: auto;
    padding: 0 20px 0 20px;
    font-family: "Work Sans", sans-serif;
@@ -46,13 +62,18 @@ header {
    align-items: center;
 }
 
-img {
+.logo-header {
    width: 98px;
    height: 53px;
    display: inline;
+   transition: transform 0.2s;
 }
 
-.links {
+.logo-header:hover {
+   transform: scale(1.03);
+}
+
+.links-nav {
    list-style: none;
    list-style-type: none;
    margin: 0;
@@ -60,27 +81,71 @@ img {
    display: flex;
 }
 
-.links li {
-   display: inline;
-   margin: 0 20px;
-}
-nav {
-   text-decoration: none;
+.links-nav a:visited {
    color: #000000;
+}
+
+.links-nav li {
+   display: inline-flex;
+   margin: 13px 20px 0 15px;
+   padding-bottom: 9px;
+   border-bottom: 3px solid transparent;
+}
+
+.links-nav li:hover {
+   border-bottom: 3px solid #4a50bb;
+}
+
+.links-nav li:active {
+   border-bottom: 3px solid #4a50bb;
+}
+
+.program-page,
+.about-page,
+.volunteer-page,
+.support-page,
+.faq-page {
+   opacity: 0.6;
+}
+
+.program-page:hover {
+   opacity: 1;
+}
+
+.about-page:hover {
+   opacity: 1;
+}
+
+.volunteer-page:hover {
+   opacity: 1;
+}
+
+.support-page:hover {
+   opacity: 1;
+}
+
+.faq-page:hover {
+   opacity: 1;
+}
+
+nav {
    font-size: 12px;
+   background-color: white;
 }
 
 .nav-menu {
    text-transform: uppercase;
 }
 
+/* Here ends the header */
+
 .partners {
-padding: 10px 0 10px 0;
-height: 641px;
-width: 1144px;
+   padding: 10px 0 10px 0;
+   height: 641px;
+   width: 1144px;
 }
 
 h2 {
-font-family:"Work Sans", sans-serif; 
-color: #1C2294; 
+   font-family: "Work Sans", sans-serif;
+   color: #1c2294;
 }
