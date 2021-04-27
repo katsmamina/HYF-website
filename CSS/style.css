@@ -139,23 +139,7 @@ nav {
 
 /* Here ends the header */
 
-.partners-container {
-   min-width: auto;
-   min-height: auto;
-   box-sizing: border-box;
-   text-decoration: none;
-   list-style-type: none;
-}
-
-.partners-container {
-   height: 90px;
-   width: 1285px;
-   max-width: 1285px;
-   margin-left: 155px;
-   margin-right: 160px;
-   justify-content: space-between;
-   align-items: center;
-}
+/* our partners section */
 
 .partners {
    padding: 0 20px 0 20px;
@@ -168,38 +152,70 @@ nav {
    min-width: auto;
 }
 
-.partners-link {
-   font-family: "Work Sans", sans-serif;
-   font-size: 12px;
-   text-transform: uppercase;
-   color: #4A50BB;
-   background-color: #E5E5E5;
+.partners-container {
+   height: 90px;
+   width: 1285px;
+   max-width: 1285px;
+   margin-left: 155px;
+   margin-right: 160px;
+   justify-content: space-between;
+   align-items: center;
+   min-width: auto;
+   min-height: auto;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.partners-head {
    display: flex;
-
+   justify-content: space-between; 
 }
 
-button {
-outline: none;
+.partners-h {
+    line-height: 140%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    color: rgb(28, 34, 148);
+    text-align: left;
+    max-width: none;
 }
 
-h2 {
-   font-family: "Work Sans", sans-serif;
-   color: #1c2294;
+.partners-link {
+    display: inline-flex;
+    font-size: 12px;
+    line-height: 80%;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 2px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    background-color: transparent;
+    color: rgb(74, 80, 187);
 }
+
+.partners-link:hover {
+   background: lightgray;
 
 .partners-icons {
    height: 410px;
-   width: 1285px;
    max-width: 1285px; 
    min-width: auto;
    min-height: auto;
-   justify-content: space-between;
-   align-items: left; 
+   display: flex;
 }
 
 .partner-logo {
-  height: 170px;
-  max-width: 150px;
+  max-height: 170px;
+  max-width: 180px;
   background-color: #ffffff;
   min-height: auto;
   min-width: auto;
