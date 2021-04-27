@@ -139,13 +139,68 @@ nav {
 
 /* Here ends the header */
 
+.partners-container {
+   min-width: auto;
+   min-height: auto;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.partners-container {
+   height: 90px;
+   width: 1285px;
+   max-width: 1285px;
+   margin-left: 155px;
+   margin-right: 160px;
+   justify-content: space-between;
+   align-items: center;
+}
+
 .partners {
-   padding: 10px 0 10px 0;
+   padding: 0 20px 0 20px;
+   font-family: "Work Sans", sans-serif;
+   display: flex;
+   box-sizing: border-box;
    height: 641px;
-   width: 1144px;
+   width: 1665px;
+   min-height: auto;
+   min-width: auto;
+}
+
+.partners-link {
+   font-family: "Work Sans", sans-serif;
+   font-size: 12px;
+   text-transform: uppercase;
+   color: #4A50BB;
+   background-color: #E5E5E5;
+   display: flex;
+
+}
+
+button {
+outline: none;
 }
 
 h2 {
    font-family: "Work Sans", sans-serif;
    color: #1c2294;
+}
+
+.partners-icons {
+   height: 410px;
+   width: 1285px;
+   max-width: 1285px; 
+   min-width: auto;
+   min-height: auto;
+   justify-content: space-between;
+   align-items: left; 
+}
+
+.partner-logo {
+  height: 170px;
+  max-width: 150px;
+  background-color: #ffffff;
+  min-height: auto;
+  min-width: auto;
 }
