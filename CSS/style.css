@@ -137,13 +137,15 @@ nav {
    text-transform: uppercase;
 }
 
+/* Here ends the header */
+
 .partners {
-padding: 10px 0 10px 0;
-height: 641px;
-width: 1144px;
+   padding: 10px 0 10px 0;
+   height: 641px;
+   width: 1144px;
 }
 
 h2 {
-font-family:"Work Sans", sans-serif; 
-color: #1C2294; 
+   font-family: "Work Sans", sans-serif;
+   color: #1c2294;
 }
