@@ -8,7 +8,7 @@ a {
    text-decoration: none;
 }
 
-.apply-button {
+.apply-button-nav {
    font-size: 12px;
    font-weight: 600;
    text-decoration: none solid white;
@@ -20,14 +20,14 @@ a {
    transition: transform 0.2s;
 }
 
-.apply-button:hover {
+.apply-button-nav:hover {
    box-shadow: 1px 1px 5px #dcd6e2;
    color: #ffffff;
    background-color: #3136a5;
    transform: scale(1.02);
 }
 
-.btn-apply {
+.btn-apply-nav {
    display: flex;
 }
 
@@ -62,18 +62,18 @@ header {
    align-items: center;
 }
 
-.logo {
+.logo-header {
    width: 98px;
    height: 53px;
    display: inline;
    transition: transform 0.2s;
 }
 
-.logo:hover {
+.logo-header:hover {
    transform: scale(1.03);
 }
 
-.links {
+.links-nav {
    list-style: none;
    list-style-type: none;
    margin: 0;
@@ -81,22 +81,22 @@ header {
    display: flex;
 }
 
-.links a:visited {
+.links-nav a:visited {
    color: #000000;
 }
 
-.links li {
+.links-nav li {
    display: inline-flex;
    margin: 13px 20px 0 15px;
    padding-bottom: 9px;
    border-bottom: 3px solid transparent;
 }
 
-.links li:hover {
+.links-nav li:hover {
    border-bottom: 3px solid #4a50bb;
 }
 
-.links li:active {
+.links-nav li:active {
    border-bottom: 3px solid #4a50bb;
 }
 
