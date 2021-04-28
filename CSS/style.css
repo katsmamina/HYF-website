@@ -145,14 +145,12 @@ nav {
    font-family: "Work Sans", sans-serif;
    display: flex;
    box-sizing: border-box;
-   /* height: 340px; */
    width: 1665px;
    min-height: auto;
    min-width: auto;
 }
 
 .partners-container {
-   /* height: 340px; */
    width: 1285px;
    max-width: 1285px;
    margin-left: 155px;
