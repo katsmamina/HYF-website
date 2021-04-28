@@ -34,7 +34,7 @@ a {
 header {
    box-sizing: border-box;
    display: flex;
-   height: 90px;
+   height: 87px;
    width: 1665px;
    min-width: auto;
    padding: 0 20px 0 20px;
@@ -141,7 +141,11 @@ nav {
 
 /* our partners section */
 .partners {
-   padding: 0 20px 0 20px;
+   padding: 10px 0 10px 0;
+   width: 1144px;
+}
+
+h2 {
    font-family: "Work Sans", sans-serif;
    display: flex;
    box-sizing: border-box;
@@ -209,30 +213,134 @@ nav {
    justify-content: space-between;
    margin-top: 20px;
 }
-/* 
-.pnknldg {
-   width: 170px;
-   -webkit-box-align: stretch;
-   align-items: stretch;
-   box-sizing: border-box;
-   display: inline-block;
-   flex-direction: row;
-   -webkit-box-flex: 0;
-   height: auto;
-   -webkit-box-pack: start;
-   justify-content: flex-start;
-   z-index: 0;
-   position: static;
-   background: none 0% 0% / auto transparent;
-   flex: 0 1 170px;
-   margin: 0px;
-   padding: 0px;
+
+/* PROGRAM PAGE */
+
+/* Here starts the Application section */
+
+.apps-section {
+   display: flex;
+   position: relative;
+   height: 595px;
+   width: 1665px;
+   padding: 0px 0px 20px 0px;
+   min-width: auto;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
 }
 
-.open-know {
-   max-width: 170px;
-   max-height: auto;
-   object-fit: fill;
-   border-radius: 0px;
+.apps-container {
+   display: flex;
+   height: 595px;
+   width: 1280px;
+   margin: 0px 170px 0px 170px;
+   max-width: 1280px;
+   min-width: auto;
+   z-index: 2;
 }
-*/
+
+.apps-right {
+   height: 595px;
+   width: 1667px;
+   margin-left: 7.2%;
+}
+.apps-left {
+   width: 570px;
+   height: 465px;
+   padding-bottom: 10px 0px 10px 0px;
+   margin-top: 72px;
+}
+.b-text {
+   color: #4a50bb;
+}
+.btn-apply-program {
+   display: flex;
+   font-size: 12px;
+   font-family: "Work Sans", sans-serif;
+   font-weight: 600;
+   line-height: 18px;
+   text-align: center;
+   text-decoration: none solid white;
+   color: #ffffff;
+   background-color: #4a50bb;
+   border-radius: 4px;
+   padding: 12px 20px 10px 20px;
+   text-transform: uppercase;
+   width: 112px;
+   height: 42px;
+   min-width: auto;
+   cursor: pointer;
+   transition: transform 0.2s;
+}
+
+.btn-apply-program:hover {
+   box-shadow: 1px 1px 5px #efeff0;
+   color: #ffffff;
+   background-color: #3136a5;
+   transform: scale(1.02);
+}
+
+.career-apps {
+   display: inline;
+   height: 595px;
+   width: 832.5px;
+   min-width: auto;
+   margin-bottom: 25px;
+}
+
+.new-career-apps {
+   display: block;
+   font-family: "Work Sans", sans-serif;
+   font-size: 36px;
+   font-weight: 700;
+   color: #4a50bb;
+   text-align: left;
+   line-height: 43px;
+   text-transform: uppercase;
+   height: 85px;
+   width: 575px;
+   margin: 0 0 20px 0;
+}
+
+.p1-apps {
+   display: block;
+   font-family: "Space Mono", monospace;
+   font-size: 16px;
+   font-weight: lighter;
+   color: #2d3037;
+   text-align: left;
+   line-height: 25px;
+   height: 172px;
+   width: 575px;
+   margin: 10px 0 10px 0;
+   white-space: pre-wrap;
+   word-spacing: 0px;
+}
+.p2-apps,
+.p3-apps {
+   display: block;
+   font-family: "Space Mono", monospace;
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 25.5px;
+   text-align: left;
+   text-decoration: underline solid #4a50bb;
+   color: #4a50bb;
+   white-space: pre-wrap;
+   word-spacing: 0px;
+}
+
+.p2-apps {
+   height: 25px;
+   width: 540px;
+   margin: 10px 0 12px 0;
+}
+
+.p3-apps {
+   height: 25px;
+   width: 462px;
+   margin: 10px 0 50px 0;
+}
+/* Here ends the Application section */
