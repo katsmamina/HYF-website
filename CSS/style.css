@@ -1,5 +1,22 @@
+/* Reset browser defaults */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* To keep the footer at bottom with flexbox */
+
+
 body {
    background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+main {
+   flex-grow: 1;
 }
 
 /* Here starts the header */
@@ -74,8 +91,6 @@ header {
 }
 
 .links-nav {
-   list-style: none;
-   list-style-type: none;
    margin: 0;
    padding: 0;
    display: flex;
