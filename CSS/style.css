@@ -158,24 +158,23 @@ nav {
 /* values section */
 
 .values {
-   padding: 0 20px 0 20px;
+   padding:50px 0 50px 0;
    width: 1665px; 
 }
 
 .values-container {
    width: 1285px;
-   max-height: 800px;
+   max-height: auto;
    max-width: 1285px;
    margin-left: 155px;
    margin-right: 160px;
-   padding: 100px 100px 100px 100px;
+   padding: 80px 80px 80px 80px;
    justify-content: space-between;
    align-items: center;
    min-width: auto;
    min-height: auto;
    box-sizing: border-box;
-   text-decoration: none;
-   list-style-type: none;
+   background-color: #F8F9FC;
 }
 
 .values-header {
@@ -192,12 +191,37 @@ nav {
 .values-table {
    width: 1285px;
    max-width: 1285px;
+   max-height: 600px;
+   display: inline-block;
    display: flex;
-   flex-flow:column wrap;
-   justify-content: 
+   flex-wrap: wrap;
+   justify-content: space-around;
+   box-sizing: border-box; 
 }
-h4 {
 
+h4 {
+   font-family: "Work Sans", sans-serif;  
+   font-weight: 700;
+   font-size: 20px;
+   margin: 0 0 20px 0;
+   color: #1c2294;
+   text-align: left;
+}
+
+.value-diversity,
+.value-community,
+.value-commitment,
+.value-open {
+   margin: 0 0 50px 0;
+   height: 263px;
+   width:432px;
+}
+
+.community-img,
+.diversity-img,
+.commitment-img,
+.open-img {
+   margin: 0 0 20px 0;
 }
 
 .values-text {
@@ -206,12 +230,12 @@ h4 {
    font-weight: 300;
    font-size: 16px;
    color: #2d3037;
-   width: 268px;
-   height: 150px;
+   width: 400px;
    line-height: 24px;
    word-wrap: break-word;
    word-spacing: 0;
 }
+
 
 /* our partners section */
 .partners {
