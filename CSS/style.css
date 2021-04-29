@@ -152,7 +152,6 @@ nav {
 .nav-menu {
    text-transform: uppercase;
 }
-  =======
   /* Here ends the header */
 
 
@@ -305,6 +304,7 @@ a.our-program-left {
   color: "inherit";
   data-side="right";
 }
+
 /* Rules for the button hover */
 .btn-discover:hover {
   background-color: rgb(229, 229, 229);
