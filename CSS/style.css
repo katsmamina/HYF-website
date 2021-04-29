@@ -158,8 +158,8 @@ nav {
 /* values section */
 
 .values {
-   padding:50px 20px 50px 20px;
-   width: 1665px; 
+   padding: 50px 20px 50px 20px;
+   width: 1665px;
 }
 
 .values-container {
@@ -172,7 +172,7 @@ nav {
    min-width: auto;
    min-height: auto;
    box-sizing: border-box;
-   background-color: #F8F9FC;
+   background-color: #f8f9fc;
 }
 
 .values-header {
@@ -194,11 +194,11 @@ nav {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
-   box-sizing: border-box; 
+   box-sizing: border-box;
 }
 
 h4 {
-   font-family: "Work Sans", sans-serif;  
+   font-family: "Work Sans", sans-serif;
    font-weight: 700;
    font-size: 20px;
    margin: 0 0 20px 0;
@@ -212,7 +212,7 @@ h4 {
 .value-open {
    margin: 0 0 50px 0;
    height: 263px;
-   width:432px;
+   width: 432px;
 }
 
 .community-img,
@@ -233,7 +233,6 @@ h4 {
    word-wrap: break-word;
    word-spacing: 0;
 }
-
 
 /* our partners section */
 .partners {
@@ -267,7 +266,7 @@ h2 {
 .partners-head {
    display: flex;
    justify-content: space-between;
-   height: 30px; 
+   height: 30px;
 }
 
 .partners-h {
@@ -311,7 +310,7 @@ h2 {
    margin-top: 20px;
 }
 
-/* footer */
+/* Here starts the footer */
 
 footer {
    display: flex;
@@ -405,6 +404,8 @@ a.ft-email:link {
 .social-media:hover {
    opacity: 1;
 }
+
+/* Here ends the Footer */
 
 /* PROGRAM PAGE */
 
@@ -536,3 +537,192 @@ a.ft-email:link {
    margin: 10px 0 50px 0;
 }
 /* Here ends the Application section */
+
+/* Here starts the Full Curriculum section */
+
+.btn-coach {
+   height: 60px;
+   width: 200px;
+   padding: 10px 0px 10px 0px;
+   transition: transform 0.2s;
+}
+.btn-coach:hover {
+   transform: scale(1.02);
+}
+
+.button-coaches-fp {
+   font-size: 12px;
+   font-family: "Work Sans", sans-serif;
+   font-weight: 600;
+   text-decoration: none solid white;
+   color: #ffffff;
+   background-color: #4a50bb;
+   border-radius: 4px;
+   padding: 10px 20px 10px 20px;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+.button-coaches-fp:hover {
+   box-shadow: 1px 1px 5px #efeff0;
+   color: #ffffff;
+   background-color: #3136a5;
+}
+
+.btn-modules {
+   height: 60px;
+   width: 315px;
+   margin: 9px 0 5px 0;
+   padding: 12px 0px 12px 0px;
+   transition: transform 0.2s;
+}
+.btn-modules:hover {
+   transform: scale(1.02);
+}
+
+.button-modules-fp {
+   font-size: 12px;
+   font-family: "Work Sans", sans-serif;
+   font-weight: 600;
+   text-decoration: none solid white;
+   color: #ffffff;
+   background-color: #4a50bb;
+   border-radius: 4px;
+   padding: 11px 20px 11px 20px;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+.button-modules-fp:hover {
+   box-shadow: 1px 1px 5px #efeff0;
+   color: #ffffff;
+   background-color: #3136a5;
+}
+
+.core-curriculum {
+   display: flex;
+   justify-content: space-between;
+   height: 305px;
+   width: 1280px;
+   min-width: auto;
+   margin: 9px 170px 9px 170px;
+}
+
+.full-program {
+   display: flex;
+   position: relative;
+   height: 430px;
+   width: 1665px;
+   padding: 50px 20px;
+}
+
+.fp-program {
+   display: block;
+   font-family: "Work Sans", sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   color: #1c2294;
+   height: 35px;
+   width: 265px;
+   margin: 5px 0 20px 0;
+   text-transform: uppercase;
+}
+
+.fp-left {
+   display: flex;
+   flex-direction: column;
+   order: 1;
+   align-items: auto;
+   height: 175px;
+   width: 350px;
+   min-width: auto;
+   margin: 58px 0px 40px 0px;
+}
+
+.fp-right {
+   display: inline-flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 5px;
+   order: 2;
+   align-items: auto;
+   width: 590px;
+   height: 305px;
+}
+
+.fp-right > div {
+   margin: 0px -1px 0px 2px;
+}
+
+.lang-1,
+.lang-2,
+.lang-3,
+.lang-4,
+.lang-5,
+.lang-6 {
+   display: inline-flex;
+   width: 191px;
+   height: 150px;
+}
+
+.html-icon,
+.css-icon,
+.js-icon,
+.nodejs-icon,
+.data-icon,
+.react-icon {
+   display: block;
+   width: 65px;
+   height: 60px;
+   align-self: flex-start;
+   margin: 30px 10px 20px 69px;
+}
+
+.html-p,
+.css-p,
+.js-p,
+.nodejs-p,
+.data-p,
+.react-p {
+   display: inline-block;
+   font-family: "Work Sans", sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   color: #1c2294;
+   align-self: center;
+}
+
+.html-p {
+   height: 25px;
+   width: 50px;
+   margin: 0px 0px -70px -64px;
+}
+
+.css-p {
+   height: 26px;
+   width: 45px;
+   margin: 10px;
+   margin: 0px 0px -70px -58px;
+}
+.js-p {
+   height: 26px;
+   width: 78px;
+   margin: 0px 0px -70px -80px;
+}
+.nodejs-p {
+   height: 26px;
+   width: 60px;
+   margin: 0px 0px -70px -72px;
+}
+.data-p {
+   height: 25px;
+   width: 70px;
+   margin: 0px 0px -70px -75px;
+}
+.react-p {
+   height: 26px;
+   width: 50px;
+   margin: 0px 0px -70px -65px;
+}
+
+/* Here ends the Full Curriculum section */
