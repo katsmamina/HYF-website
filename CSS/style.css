@@ -261,7 +261,7 @@ p.op-paragraph {
  }
 
 /* Rules for link in button of the left container */
-a.our-program-left {
+.our-program-left {
   box-sizing: border-box;
   display: block;
   float: none;
