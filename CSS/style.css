@@ -152,11 +152,71 @@ nav {
 .nav-menu {
    text-transform: uppercase;
 }
-  =======
-  /* Here ends the header */
-
+/* Here ends the header */
 
 /* MAIN */
+
+/* Here starts the Banner section */
+.banner-hp {
+   display: flex;
+   position: relative;
+   width: 1665px;
+   height: 385px;
+   min-width: auto;
+   background-image: url("/IMAGES/homepage-header.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: transparent;
+   z-index: 1;
+}
+
+.banner-hp::before {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.267);
+   top: 0px;
+   left: 0px;
+   bottom: 0px;
+   right: 0px;
+   z-index: 1;
+}
+
+.banner-img {
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 21%;
+   z-index: 10;
+}
+
+.banner-text {
+   display: inline-flex;
+   position: relative;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 960px;
+   height: 285px;
+}
+
+.new-talent {
+   font-family: "Work Sans", sans-serif;
+   font-size: 65px;
+   font-weight: 700;
+   color: #ffffff;
+   text-align: center;
+   line-height: 75px;
+   text-transform: uppercase;
+   width: 800px;
+   height: 154px;
+}
+
+/* Here ends the Banner Section */
 
 /* Our-program*/
 
@@ -167,178 +227,179 @@ nav {
 .our-program-left,
 .our-program-right,
 .btn-discover {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-style: normal;
-  text-decoration: none;
-  box-sizing: border-box;
-  line-height: 16px;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font-style: normal;
+   text-decoration: none;
+   box-sizing: border-box;
+   line-height: 16px;
 }
 
 /* Specifics rules for containers from highest to lowest hierarchy */
 .op-container-1 {
-  overflow: hidden;
-  background-color: #ffffff; 
-  flex: 0 0 auto;
-  flex-direction: row;
-  width: 100%;
-  max-width: 1904;
-  max-height: 620px;
-  padding: 50px 20px;
-  position: relative;
-  float: none;
-  line-height: 16px;
-  z-index: 1;
+   overflow: hidden;
+   background-color: #ffffff;
+   flex: 0 0 auto;
+   flex-direction: row;
+   width: 100%;
+   max-width: 1904;
+   max-height: 620px;
+   padding: 50px 20px;
+   position: relative;
+   float: none;
+   line-height: 16px;
+   z-index: 1;
 }
 
 .op-container-2 {
-  display: flex;
-  flex-direction: column;
-  -moz-box-pack: center; /* moz-box-pack is a property for a better optimization in mozilla firefox*/
-  justify-content: center;
-  -moz-box-align: center; /* moz-box-align is a property for a better optimization in mozilla firefox*/
-  align-items: center;
-  width: 100%;
-  max-width: 1280px;
-  padding: 10px 0px;
-  margin: 0px auto;
+   display: flex;
+   flex-direction: column;
+   -moz-box-pack: center; /* moz-box-pack is a property for a better optimization in mozilla firefox*/
+   justify-content: center;
+   -moz-box-align: center; /* moz-box-align is a property for a better optimization in mozilla firefox*/
+   align-items: center;
+   width: 100%;
+   max-width: 1280px;
+   padding: 10px 0px;
+   margin: 0px auto;
 }
 
 .op-container-3 {
-  padding: 50px 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+   padding: 50px 0px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 }
 
 /* Rules for left container */
 .our-program-left {
-  display: flex;
-  flex-direction: column;
-  min-height: 300px;
-  width: 640px;
-  max-width: 640px;
-  min-width: fit-content;
-  padding-right: 50px;
+   display: flex;
+   flex-direction: column;
+   min-height: 300px;
+   width: 640px;
+   max-width: 640px;
+   min-width: fit-content;
+   padding-right: 50px;
 }
 
 /* Rules for h2 */
 h2.op-title {
-  margin: 0px 0px 20px 0px;
-  font-family: "Work sans", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  color: #1c2294;
-  line-height: 20px;
-  word-spacing: normal;
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: 700;
-  max-width: none;
+   margin: 0px 0px 20px 0px;
+   font-family: "Work sans", sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   color: #1c2294;
+   line-height: 20px;
+   word-spacing: normal;
+   text-align: left;
+   text-transform: uppercase;
+   font-weight: 700;
+   max-width: none;
 }
 
 /* Rules for paragraph */
 p.op-paragraph {
-  display: block;
-  float: none;
-  position: static;
-  z-index: auto;
-  margin: 0px 0px 20px 0px;
-  font-family: "Space mono";
-  font-weight: 300;
-  color: #2d3037;
-  text-align: left;
-  max-width: 470px;
-  min-height: 179.2px;
-  line-height: 160%;
+   display: block;
+   float: none;
+   position: static;
+   z-index: auto;
+   margin: 0px 0px 20px 0px;
+   font-family: "Space mono";
+   font-weight: 300;
+   color: #2d3037;
+   text-align: left;
+   max-width: 470px;
+   min-height: 179.2px;
+   line-height: 160%;
 }
 
 /* Rule for the bold in the paragraph */
 .op-paragraph b {
    font-weight: bold;
    color: #4a50bb;
- }
+}
 
 /* Rules for link in button of the left container */
-a.our-program-left {
-  box-sizing: border-box;
-  display: block;
-  float: none;
-  position: static;
-  height: 19.2px;
-  width: 100%;
-  max-width: 116.283px;
-  line-height: 16px;  
-  z-index: auto;
+.our-program-left {
+   box-sizing: border-box;
+   display: block;
+   float: none;
+   position: static;
+   height: 19.2px;
+   width: 100%;
+   max-width: 116.283px;
+   line-height: 16px;
+   z-index: auto;
 }
 
 /* Rules for the button of the left container */
 .btn-discover {
-  display: inline-flex;
-  font-size: 12.2px;
-  line-height: 160%;
-  font-weight: 600;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  box-sizing: border-box;
-  padding: 10px 20px;
-  margin: 0px 0px 0px -20px;
-  cursor: pointer;
-  text-transform: uppercase;
-  -moz-box-align: center;
-  align-items: center;
-  font-family: "Work Sans", sans-serif;
-  background-color: transparent;
-  color: rgb(74, 80, 187);
+   display: inline-flex;
+   font-size: 12.2px;
+   line-height: 160%;
+   font-weight: 600;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding: 10px 20px;
+   margin: 0px 0px 0px -20px;
+   cursor: pointer;
+   text-transform: uppercase;
+   -moz-box-align: center;
+   align-items: center;
+   font-family: "Work Sans", sans-serif;
+   background-color: transparent;
+   color: rgb(74, 80, 187);
 }
 
 .svg-op {
-  margin: -2px 0px 0px 6px;
-  width: 10.5px;
-  height: 12px;
-  aria-hidden="true";
-  focusable="false";
-  data-prefix="fas";
-  data-icon="arrow-right";
-  color: "inherit";
-  data-side="right";
+   margin: -2px 0px 0px 6px;
+   width: 10.5px;
+   height: 12px;
+   aria-hidden: "true";
+   focusable: "false";
+   data-prefix: "fas";
+   data-icon: "arrow-right";
+   color: "inherit";
+   data-side: "right";
 }
+
 /* Rules for the button hover */
 .btn-discover:hover {
-  background-color: rgb(229, 229, 229);
+   background-color: rgb(229, 229, 229);
 }
 
 /* Rules for the right container */
 .our-program-right {
-  display: flex;
-  flex: 0 1 100%;
-  flex-direction: row;
-  min-height: 300px;
-  max-width: 640px;
-  padding-left: 50px;
+   display: flex;
+   flex: 0 1 100%;
+   flex-direction: row;
+   min-height: 300px;
+   max-width: 640px;
+   padding-left: 50px;
 }
 
 /* Rules for the image in the right container */
 img.op-img {
-  width: 590px;
-  height: 400px;
-  position: absolute 50px;
-  color: #f8f9fc;
+   width: 590px;
+   height: 400px;
+   position: absolute 50px;
+   color: #f8f9fc;
 }
 
 .op-img {
-  width: 590px;
-  height: 400px;
-  background: #f8f8f8;
-  border: #f8f9fc 0px;
-  box-shadow: 236px -60.017px 0 #f8f9fc;
-  -webkit-box-shadow: 236px -60px 0 #f8f9fc;
-  -moz-box-shadow: 236px -60px 0 #f8f9fc;
+   width: 590px;
+   height: 400px;
+   background: #f8f8f8;
+   border: #f8f9fc 0px;
+   box-shadow: 236px -60.017px 0 #f8f9fc;
+   -webkit-box-shadow: 236px -60px 0 #f8f9fc;
+   -moz-box-shadow: 236px -60px 0 #f8f9fc;
 }
 
-  /* PARTNERS SECTION */
+/* PARTNERS SECTION */
 
 /* values section */
 
@@ -425,7 +486,6 @@ h4 {
    width: 1665px;
 }
 
-
 h2 {
    font-family: "Work Sans", sans-serif;
    display: flex;
@@ -466,27 +526,27 @@ h2 {
    max-width: none;
 }
 
-.partners-link {
+.btn-partners {
    display: inline-flex;
-   font-size: 12px;
-   line-height: 80%;
-   text-decoration: none;
+   font-size: 12.2px;
+   line-height: 160%;
    font-weight: 600;
    border: 1px solid transparent;
    border-radius: 4px;
    box-sizing: border-box;
-   padding: 2px 2px;
+   padding: 10px 20px;
+   margin: 0px 0px 0px -20px;
    cursor: pointer;
    text-transform: uppercase;
-   -webkit-box-align: center;
+   -moz-box-align: center;
    align-items: center;
    font-family: "Work Sans", sans-serif;
    background-color: transparent;
    color: rgb(74, 80, 187);
 }
 
-.partners-link:hover {
-   background: lightgray;
+.btn-partners:hover {
+   background-color: rgb(229, 229, 229);
 }
 
 .partners-icons {
