@@ -163,7 +163,7 @@ nav {
    width: 1665px;
    height: 385px;
    min-width: auto;
-   background-image: url("/IMAGES/homepage-header.jpg");
+   background-image: url("IMAGES/homepage-header.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
