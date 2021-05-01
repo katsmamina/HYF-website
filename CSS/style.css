@@ -163,7 +163,11 @@ nav {
    width: 1665px;
    height: 385px;
    min-width: auto;
+<<<<<<< HEAD
+   background-image: url("https://github.com/katsmamina/HYF-website/blob/main/IMAGES/homepage-header.jpg?raw=true");
+=======
    background-image: url("IMAGES/homepage-header.jpg");
+>>>>>>> main
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
