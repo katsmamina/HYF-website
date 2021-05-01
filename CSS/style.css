@@ -323,17 +323,18 @@ p.op-paragraph {
 }
 
 /* Rules for link in button of the left container */
-.our-program-left {
-  box-sizing: border-box;
-  display: block;
-  float: none;
-  position: static;
-  height: 19.2px;
-  width: 100%;
-  max-width: 116.283px;
-  line-height: 16px;
-  z-index: auto;
-}
+
+a.our-program-left {
+   box-sizing: border-box;
+   display: block;
+   float: none;
+   position: static;
+   height: 19.2px;
+   width: 100%;
+   max-width: 116.283px;
+   line-height: 16px;
+   z-index: auto;
+
 
 /* Rules for the button of the left container */
 .btn-discover {
