@@ -556,6 +556,58 @@ h2 {
    margin-top: 20px;
 }
 
+/* Here starts the Support section */
+
+.support {
+   background-color: #f8f9fc;
+   padding: 50px 20px 50px 20px;
+   width: 1665px;
+}
+
+.support-container {
+   max-width: 1280px;
+   padding: 10px 0px;
+   margin: 0px auto;
+   display: flex;
+}
+ 
+.support-intro {
+   padding-right: 80px;
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+}
+
+.support-h {
+   margin: 0px 0px 20px 0px;
+   font-family: "Work sans", sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   color: #1c2294;
+   line-height: 20px;
+   word-spacing: normal;
+   text-align: left;
+   text-transform: uppercase;
+   font-weight: 700;
+   max-width: none;
+}
+
+.support-paragraph {
+   display: block;
+   float: none;
+   position: static;
+   z-index: auto;
+   margin: 0px 0px 20px 0px;
+   font-family: "Space mono";
+   font-weight: 300;
+   color: #2d3037;
+   text-align: left;
+   max-width: 470px;
+   min-height: 179.2px;
+   line-height: 160%;
+}
+
+
 /* Here starts the footer */
 
 footer {
