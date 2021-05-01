@@ -1,3 +1,24 @@
+# Week 3
+
+## Stop doing 
+- Not notifying absences: It's necessary for each group member to notify the others when one can not participate in a meeting.
+- Using old version of files, not fetching the latest version before making a PR – that creates conflict.
+- Not communicating on daily basis.
+
+## Continue doing
+- Using html classes efficiently by naming with name of the section and element.
+- Using the DevTools for analyzing the page.
+- Commenting on PR when merging it.
+
+## Start doing
+- Be more organised when linking PR to issues, and with updating the project board.
+- Developing responsive design.
+- Adding the rules of reviewing code and merging/editing it to the development strategy (e.g. if the mistakes are too small, should the reviewer fix them and comment, or should the reviewer give the code back to the developer).
+
+## Lessons learned
+- How to analyse the layout and use HTML and CSS.
+- How to resolve GitHub conflicts.
+
 # WEEK 2
 
 ## Stop Doing
@@ -26,3 +47,4 @@
 - Using DevTools.
 - Improving User stories for Backlog.
 - Create a development strategy.
+
