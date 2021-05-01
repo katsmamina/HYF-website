@@ -657,8 +657,24 @@ height: 393px;
    list-style: none;
 }
 
+.amount-support,
+.message-support {
+width: 100%;
+border-color: currentcolor currentcolor rgb(28, 34, 148);
+border-style: none none solid;
+border-width: medium medium 1px;
+border-image: none 100% / 1 / 0 stretch;
+margin: 20px 0px;
+font-size: 18px;
+padding: 5px;
+box-sizing: border-box;
+color: rgb(28, 34, 148);
+background-color: transparent;
+outline: currentcolor none medium;
+}
+
 .support-submit-btn {
-   display: inline-flex;
+display: inline-flex;
 font-size: 12px;
 line-height: 160%;
 text-decoration: none;
@@ -668,9 +684,9 @@ font-weight: 600;
 border: 1px solid transparent;
 border-radius: 4px;
 box-sizing: border-box;
-padding: 10px;
-margin: 10px;
 cursor: pointer;
+padding: 10px;
+margin: 10px 0px;
 text-transform: uppercase;
 -moz-box-align: center;
 align-items: center;
@@ -698,7 +714,7 @@ word-break: break-word;
 font-weight: 300;
 }
 
-.support-form-two {
+.sprt-form-two {
 display: flex;
 flex-direction: column;
 }
