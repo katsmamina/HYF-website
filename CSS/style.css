@@ -158,6 +158,7 @@ nav {
 
 /* Here starts the Banner section */
 .banner-hp {
+  background-image: url("https://github.com/katsmamina/HYF-website/blob/main/IMAGES/homepage-header.jpg?raw=true");
   display: flex;
   position: relative;
   width: 1665px;
