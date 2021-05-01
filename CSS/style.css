@@ -322,7 +322,7 @@ p.op-paragraph {
 }
 
 /* Rules for link in button of the left container */
-.our-program-left {
+a.our-program-left {
    box-sizing: border-box;
    display: block;
    float: none;
