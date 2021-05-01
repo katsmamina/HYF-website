@@ -158,12 +158,12 @@ nav {
 
 /* Here starts the Banner section */
 .banner-hp {
+   background-image: url("https://github.com/katsmamina/HYF-website/blob/main/IMAGES/homepage-header.jpg?raw=true");
    display: flex;
    position: relative;
    width: 1665px;
    height: 385px;
    min-width: auto;
-   background-image: url("IMAGES/homepage-header.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -322,7 +322,8 @@ p.op-paragraph {
 }
 
 /* Rules for link in button of the left container */
-.our-program-left {
+
+a.our-program-left {
    box-sizing: border-box;
    display: block;
    float: none;
@@ -570,7 +571,7 @@ h2 {
    margin: 0px auto;
    display: flex;
 }
- 
+
 .support-intro {
    padding-right: 80px;
    display: flex;
@@ -612,11 +613,11 @@ h2 {
 }
 
 .sprt-form {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-width: 640px;
-height: 393px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 640px;
+   height: 393px;
 }
 
 .support-frequency {
@@ -641,7 +642,7 @@ height: 393px;
    align-items: center;
 }
 
-.once, 
+.once,
 .monthly {
    cursor: pointer;
    margin-right: 10px;
@@ -670,7 +671,7 @@ height: 393px;
 
 .amount-option {
    background-color: white;
-   color:rgb(28, 34, 148)
+   color: rgb(28, 34, 148);
 }
 
 .amount-option-ten {
@@ -683,21 +684,20 @@ height: 393px;
    color: white;
 }
 
-
 .amount-support,
 .message-support {
-width: 100%;
-border-color: currentcolor currentcolor rgb(28, 34, 148);
-border-style: none none solid;
-border-width: medium medium 1px;
-border-image: none 100% / 1 / 0 stretch;
-margin: 20px 0px;
-font-size: 18px;
-padding: 5px;
-box-sizing: border-box;
-color: rgb(28, 34, 148);
-background-color: transparent;
-outline: currentcolor none medium;
+   width: 100%;
+   border-color: currentcolor currentcolor rgb(28, 34, 148);
+   border-style: none none solid;
+   border-width: medium medium 1px;
+   border-image: none 100% / 1 / 0 stretch;
+   margin: 20px 0px;
+   font-size: 18px;
+   padding: 5px;
+   box-sizing: border-box;
+   color: rgb(28, 34, 148);
+   background-color: transparent;
+   outline: currentcolor none medium;
 }
 
 .support-submit-btn {
@@ -723,26 +723,26 @@ outline: currentcolor none medium;
    box-shadow: 1px 1px 5px #dcd6e2;
    color: #ffffff;
    background-color: #3136a5;
-   transform: scale(1.02); 
+   transform: scale(1.02);
 }
 
 .support-text,
 .support-once,
 .support-monthly {
-color: rgb(28, 34, 148);
-text-align: left;
-max-width: none;
-font-size: 16px;
-font-family: "Work Sans", sans-serif;
-white-space: pre-wrap;
-word-break: break-word;
-font-weight: 300;
+   color: rgb(28, 34, 148);
+   text-align: left;
+   max-width: none;
+   font-size: 16px;
+   font-family: "Work Sans", sans-serif;
+   white-space: pre-wrap;
+   word-break: break-word;
+   font-weight: 300;
 }
 
 .sprt-form-two {
-display: flex;
-flex-direction: column;
-width: 470,4;
+   display: flex;
+   flex-direction: column;
+   width: 470, 4;
 }
 
 .p-amount,
@@ -987,6 +987,129 @@ a.ft-email:link {
 }
 /* Here ends the Application section */
 
+/* Here starts Who can apply section */
+
+.who-container-1 {
+   box-sizing: border-box;
+   margin: 0;
+   display: flex;
+   -moz-box-pack: center;
+   justify-content: center;
+   width: 100%;
+   max-width: 1665px;
+   height: 100%;
+   max-height: 388px;
+   padding: 50px 20px;
+   position: relative;
+   box-shadow: none;
+   background: #f8f9fc;
+   z-index: 1;
+   flex: 0 0 auto;
+   margin: 0;
+   border: 0;
+   font-size: 100%;
+   font-style: normal;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   line-height: 16px;
+}
+
+.who-container-2 {
+   box-sizing: border-box;
+   margin: 0;
+   display: flex;
+   flex-direction: row;
+   -moz-box-pack: center;
+   justify-content: flex-start;
+   -moz-box-align: center;
+   align-items: ;
+   width: 100%;
+   max-width: 1280px;
+   height: 100%;
+   max-height: 288px;
+   padding: 10px 0px;
+   margin: 0px auto;
+   border: 0;
+   font-size: 100%;
+   font-style: normal;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   line-height: 1;
+}
+
+/* Left container */
+
+.who-left {
+   width: 461.65px;
+   height: 153.6px;
+   padding-right: 100px;
+}
+
+h2.who-title {
+   font-size: 24px;
+   line-height: 140%;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   font-family: "Work Sans", sans-serif;
+   font-weight: 700;
+   color: rgb(28, 34, 148);
+   text-align: left;
+   max-width: none;
+}
+
+p.who-paragraph {
+   font-family: "Space mono", monospace;
+   color: #2d3037;
+   word-break: break-word;
+   font-size: 16px;
+   font-weight: 300;
+   width: 461.65px;
+   height: 153.6px;
+   margin: 0px;
+   line-height: 160%;
+   text-align: left;
+   max-width: none;
+}
+
+/* Right container */
+
+.who-right {
+   width: 568.52px;
+   height: 281.6px;
+   margin-top: 20px;
+   padding-top: 33.6px;
+   padding-left: 50px;
+}
+.check-svg {
+   height: 11.2px;
+   width: 11.2px;
+   margin: -2px 6px 0px 6px;
+}
+
+ul.list-who {
+   width: 718.35px;
+   height: 215.2px;
+   display: static;
+   flex: column;
+   list-style: none;
+   font-family: "Space mono", monospace;
+   box-sizing: border-box;
+   margin: 0;
+   line-height: 1;
+}
+
+.li-1 {
+   position: relative;
+   margin: 3px 0px;
+   padding-left: 30px;
+   line-height: 1.5;
+}
+.list-who b {
+   font-weight: bold;
+   color: #4a50bb;
+}
 /* Here starts the Full Curriculum section */
 
 .btn-coach {
