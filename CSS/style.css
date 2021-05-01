@@ -622,7 +622,16 @@ height: 393px;
 .support-frequency {
    display: flex;
    flex-direction: row;
+   justify-content: center;
    margin-bottom: 20px;
+   margin: 0;
+   margin-bottom: 0px;
+   padding: 0;
+   border: 0;
+   vertical-align: baseline;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-family: sans-serif;
 }
 
 .support-once,
@@ -644,19 +653,28 @@ height: 393px;
 .select-amount {
    display: flex;
    flex-direction: row;
-
+   justify-content: center;
+   list-style: none;
 }
 
 .support-submit-btn {
-   font-size: 12px;
-   font-weight: 600;
-   text-decoration: none solid white;
-   color: #ffffff;
-   background-color: #4a50bb;
-   border-radius: 4px;
-   padding: 13px 20px 13px 20px;
-   margin-bottom: 2%;
-   transition: transform 0.2s;
+   display: inline-flex;
+font-size: 12px;
+line-height: 160%;
+text-decoration: none;
+background-color: rgb(74, 80, 187);
+color: white;
+font-weight: 600;
+border: 1px solid transparent;
+border-radius: 4px;
+box-sizing: border-box;
+padding: 10px;
+margin: 10px;
+cursor: pointer;
+text-transform: uppercase;
+-moz-box-align: center;
+align-items: center;
+font-family: "Work Sans", sans-serif;
 }
 
 .support-submit-btn:hover {
@@ -668,8 +686,7 @@ height: 393px;
 
 .support-text,
 .support-once,
-.support-monthly,
-.amount-text {
+.support-monthly {
 color: rgb(28, 34, 148);
 text-align: left;
 max-width: none;
@@ -679,6 +696,44 @@ margin: 0px;
 white-space: pre-wrap;
 word-break: break-word;
 font-weight: 300;
+}
+
+.support-form-two {
+display: flex;
+flex-direction: column;
+}
+
+.p-amount,
+.p-message {
+   color: rgb(28, 34, 148);
+   text-align: left;
+   max-width: none;
+   font-size: 16px;
+   font-family: "Work Sans", sans-serif;
+   margin: 0px;
+   white-space: pre-wrap;
+   word-break: break-word;
+   font-weight: 300;
+}
+
+.amount-option,
+.amount-option-ten {
+   border: 1px solid rgb(28, 34, 148);
+   padding: 15px 20px;
+   text-align: center;
+   cursor: pointer;
+   -moz-box-pack: center;
+   justify-content: center;
+   font-family: "Work Sans", sans-serif;
+}
+
+.amount-option {
+   background-color: white;
+}
+
+.amount-option-ten {
+   background-color: rgb(28, 34, 148);
+   color: white;
 }
 
 /* Here starts the footer */
